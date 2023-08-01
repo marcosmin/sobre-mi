@@ -1,11 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
+<!--Head con metadata, enlace a hoja de estilo y titulo de la web-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="StyleSheet" href="styles.css">
+    <title>Marcos Mingo</title>
 </head>
+
+<!-- Cuerpo del sitio web-->
 <body>
-    <p>template vacio</p>
+
+    <!-- Div contenedor necesario para utilizar grid-->
+    <div class="contenedor">
+
+        <!-- Header o cabecera del sitio, con titulo principal-->
+        <header class="header">
+            <h1>ALUMNO:<strong> MARCOS MINGO</strong></h1>
+        </header>
+
+        <!--Main con el contenido principal del sitio-->
+        <main class="contenido">
+
+            <!--1º articulo del sitio (Datos Básicos)-->
+            <article>
+                <h2>Datos Básicos</h2>
+                <ul>
+                    <li>> <strong>Nombre:</strong> Marcos Mingo</li>
+                    <li>> <strong>Edad:</strong> 34 años</li>
+                    <li>> <strong>Pais:</strong> Argentina</li>
+                </ul>
+            </article>
+
+            <!--2º articulo del sitio (Intereses)-->
+            <article>
+                <h2>Intereses</h2>
+                <ul>
+                    <li>> Programación web</li>
+                    <li>> Diseño gráfico</li>
+                    <li>> Fotografía</li>
+                </ul>
+            </article>
+
+            <!--3º articulo del sitio (Experiencias)-->
+            <article>
+                <h2>Experiencias</h2>
+                <ul>
+                    <li>> Atención al cliente en una fotocopiadora</li>
+                    <li>> Diseñador Gráfico en un centro de Diseño</li>
+                    <li>> Diseñador Gráfico en una fábrica de bolsas</li>
+                </ul>
+            </article>
+        </main>
+
+        <!--Sidebar con info adicional (enlace de Linkedin y Github)-->
+        <aside class="sidebar">
+            <!--Enlace a perfil de linkedin-->
+            <a class="btn btn1" href="https://www.linkedin.com/in/marcos-mingo/" target="_blank">LinkedIn</a>
+            <!--Enlace a perfil de github-->
+            <a class="btn btn2" href="https://github.com/marcosmin/sobre-mi" target="_blank">Github</a>
+        </aside>
+
+        <!--Imagen 1-->
+        <div class="imagen1">
+            <img alt="programando una web" src="sabias-que.jpg">
+            <br>
+        </div>
+
+        <!--Video-->
+        <div class="video">
+            <video src="cargando.mp4" controls></video>
+        </div>
+
+        <!--Imagen 2-->
+        <div class="imagen2">
+            <img alt="programando una web" src="presente-futuro.jpg">
+            <br>
+        </div>
+        
+        <!--Profes del curso y enlaces a sus clases-->
+        <a class="profe-t" href="https://sites.google.com/unc.edu.ar/argentinaprograma/p%C3%A1ginas-web-con-componentes-din%C3%A1micos/videos/teoricos?authuser=0" target="_blank"> <strong>Profesor TEÓRICO:</strong> Ignacio Moretti</a>
+        <a class="profe-p" href="https://sites.google.com/unc.edu.ar/argentinaprograma/p%C3%A1ginas-web-con-componentes-din%C3%A1micos/videos/nehuen?authuser=0" target="_blank"> <strong>Profesor PRÁCTICO:</strong> Nehuen Aramburu</a>
+
+        <!--Pie de página con info del curso-->
+        <footer class="footer">
+            <p><strong>Argentina Programa | FAMAF - UNC:</strong> Páginas Web con Componentes Dinámicos - 2023</p>
+        </footer>
+        
+    </div>
 </body>
 </html>
