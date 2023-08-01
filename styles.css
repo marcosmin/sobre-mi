@@ -1,7 +1,9 @@
+/* Enlaces sin subrayado */
 a:link, a:visited, a:active {
     text-decoration:none;
 }
 
+/* Contenedor principal*/
 .contenedor {
     width: 96%;
     margin: 20px auto;
@@ -11,6 +13,7 @@ a:link, a:visited, a:active {
     grid-template-rows: repeat(4, auto);
 }
 
+/* Contenedor Header */
 .contenedor .header {
     background: #554c70;
     color: white;
@@ -19,6 +22,7 @@ a:link, a:visited, a:active {
     text-align: center;
 }
 
+/* Contenedor contenido */
 .contenedor .contenido {
     grid-column: span 3;
     background: #bcdef6;
@@ -28,6 +32,7 @@ a:link, a:visited, a:active {
     justify-content: space-around;
 }
 
+/* Contenedor sidebar */
 .contenedor .sidebar {
     grid-column: 4/5;
     background: #aed92c;
@@ -37,6 +42,7 @@ a:link, a:visited, a:active {
     grid-row: 2/4;
 }
 
+/* Contenedor imagen 1 */
 .contenedor .imagen1 {
     grid-column: 1/2;
     background: rgb(0, 0, 0);
@@ -45,6 +51,7 @@ a:link, a:visited, a:active {
     justify-content: center;
 }
 
+/* Contenedor imagen 2 */
 .contenedor .imagen2 {
     grid-column: 3/4;
     background: rgb(0, 0, 0);
@@ -53,6 +60,7 @@ a:link, a:visited, a:active {
     justify-content: center;
 }
 
+/* Contenedor video */
 .contenedor .video {
     grid-column: 2/3;
     background: rgb(0, 0, 0);
@@ -61,6 +69,7 @@ a:link, a:visited, a:active {
     justify-content: center;
 }
 
+/* Profe teorico */
 .profe-t {
     grid-column: 1/3;
     background: #6aea75;
@@ -73,10 +82,12 @@ a:link, a:visited, a:active {
     text-decoration: none;
 }
 
+/* Profe teorico HOVER*/
 .profe-t:hover {
     background: #6ff77b;
 }
 
+/* Profe practico */
 .profe-p {
     grid-column: 3/5;
     background: #b5b0f8;
@@ -89,10 +100,12 @@ a:link, a:visited, a:active {
     text-decoration: none;
 }
 
+/* Profe practico HOVER*/
 .profe-p:hover {
     background: #bebaf8;
 }
 
+/* Contenedor footer */
 .contenedor .footer {
     grid-column: 1/5;
     text-align: center;
@@ -102,19 +115,23 @@ a:link, a:visited, a:active {
     font-size: small;
 }
 
+/* Ancho de imagen 1 */
 .imagen1 img {
     width: 100%;
 }
 
+/* Ancho de imagen 2 */
 .imagen2 img {
     width: 100%;
 }
 
+/* Ancho y alto de video */
 .video video {
     width: 100%;
     height: 100%;
 }
 
+/* Boton sidebar */
 .btn {
     background-color: #bb1446;
     color: white;
@@ -128,28 +145,33 @@ a:link, a:visited, a:active {
     text-decoration: none;
   }
 
+/* Boton 1 sidebar HOVER*/
 .btn1:hover {
     background-color: #0b66c3;
 }
 
+/* Boton 2 sidebar HOVER*/
 .btn2:hover {
     background-color: #2b2b2b;
 }
 
+/* Boton sidebar ACTIVE*/
 .btn:active {
     background-color: #b95372;
 }
 
-
+/* h1 */
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 
+/* h2 */
 h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ul */
 ul {
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
